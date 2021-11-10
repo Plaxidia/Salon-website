@@ -92,7 +92,7 @@ section {
 }
 
 .left-col .Watch-video-cta img {
-  margin-right: 01.4em;
+  margin-right: 0.5em;
 }
 
 .hero-img {
@@ -305,7 +305,7 @@ nav li ahover {
   section {
     padding: 10em 4em;
   }
-  .hero .container {
+  .hero .Container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -314,12 +314,22 @@ nav li ahover {
             justify-content: space-between;
     text-align: left;
   }
-  .hero .container .left-col {
-    margin: 3em 3em 0 4em;
+  .hero .Container .left-col {
+    margin: 3em 3em 0 5em;
+    display: block;
   }
-  .hero .container .left-col .h1 {
+  .hero .Container .h1 {
     width: 90%;
     font-size: 3em;
+  }
+  .hero-img {
+    width: 30%;
+    margin-right: 8em;
+  }
+  .hero-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=main.css.map */

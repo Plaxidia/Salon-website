@@ -90,7 +90,7 @@ ul {
         display: block;
         margin-top: 1em;
         img{
-            margin-right: 01.4em;
+            margin-right: 0.5em;
         }
 
        
@@ -309,7 +309,6 @@ cursor: pointer;
                 &:hover {
                     background: var(--primary-color);
                     color: black;
-                    //color: white;
                 }
             }
         }
@@ -324,20 +323,34 @@ cursor: pointer;
             padding: 10em 4em;
 
         }
-        .hero .container{
+        .hero .Container{
             display: flex;
             justify-content: space-between;
             text-align: left;
+           
             .left-col{
-                margin: 3em 3em 0 4em;
+                margin: 3em 3em 0 5em;
+                display: block;
                 
+                }
                 .h1{
                     width: 90%;
                     font-size: 3em;
                 }
-            }
+            
+        }
+
+        .hero-img {
+            width: 30%;
+            margin-right: 8em;
+        }
+    
+        .hero-cta {
+            display: flex;
         }
     }
+
+
 
 
 
