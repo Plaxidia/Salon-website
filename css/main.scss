@@ -312,31 +312,24 @@ cursor: pointer;
             margin: 0 auto;
 
         }
-        .hero{
-            text-align: left;
-        }
-        /*
     
         section {
             padding: 10em 4em;
         }
-        .hero-img {
-            width: 30%;
-            margin-right: 8em;
-        }
+       
         .hero .container {
             display: flex;
             justify-content: space-between;
-            //text-align: left;
+            text-align: left;
     
-            .left-col{
-                display: grid
+             .left-col{
+                
                 margin: 3em 3em 0 5em;
                 text-align: left;
                 .h1{
                     font-size: 3em;
                     width: 90%;
-                }
+                }/*
                 .subhead{
                     text-transform: uppercase;
                     font-weight: bold;
