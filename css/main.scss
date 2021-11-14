@@ -23,7 +23,6 @@ body {
         font-weight: bold;
         color: black;
         font-size: 2em;
-
         span {
             color: var(--primary-color);
         }
@@ -78,7 +77,6 @@ ul {
      .primary-cta {
          background: var(--primary-color);
          color:black;
-
          text-decoration: none;
          padding: .6em 1.3em;
          font-size: 0.9em;
@@ -103,13 +101,14 @@ section.Features-section{
 
     background:rgba(89, 96, 131, 0.438) ;
     color: rgb(7, 7, 7);
+    background-size: 3em 25px;
    
 }
 ul.Features-list {
     margin: 0 ;
     display: grid;
-    padding-left: 0,1em;
-    //grid-template-columns:repeat(auto-fit,minmax 19em, iframe) ;
+    padding-left: 0.1em;
+    grid-template-columns:repeat(auto-fit,minmax (19em, if)) ;
  
    
 
@@ -120,7 +119,7 @@ ul.Features-list {
         position: relative;
 
          &:before {
-             margin: 0.1em;
+            // margin: 0.1em;
             content: '';
             left: -2em;
             position: absolute;
@@ -141,22 +140,20 @@ ul.Features-list {
 .our-stylist {
     background: var(--primary-color);
     color:black;
-
+   
 
     li{
         background:rgb(228, 216, 200) ;
         text-align: center;
-        
         padding:2em 4em;  
         //padding: 0.6em 0.5em;
         width: 200px;
+        //width: 80%;
         margin: 0 auto 5em auto;
         border-radius: 1em;
         img{
             width: 5em;
             height: 5em;
-
-
             background-color: '';
            //padding: 2em 4em;
             border: 5px solid rgb(228, 216, 200);
@@ -202,7 +199,7 @@ ul.Features-list {
         border-radius: 5em;
         display :inline-block;
         padding : .5em .2em;
-       // width: unset;
+        //width: unset;
         //cursor: pointer;
     }
     iframe {
@@ -247,7 +244,8 @@ margin: .5em;
 cursor: pointer;
     }
 
-    @media only screen and (min-width: 780px) {
+    //@media only screen and (min-width: 780px) {
+        @media only screen and (min-width: 630px) {
 
         .mobile-menu, .mobile-menu-exit {
             display: none;
@@ -309,31 +307,7 @@ cursor: pointer;
     
     }
     @media only screen and (min-width: 1080px) {
-        .container{
-            width: 1080px;
-            margin: 0 auto;
-        }
-        section{
-            padding: 10em 4em;
-
-        }
-        .hero .Container{
-            display: flex;
-            justify-content: space-between;
-            text-align: left;
-           
-            .left-col{
-                margin: 3em 3em 0 5em;
-                display: block;
-                
-                }
-                .h1{
-                    width: 90%;
-                    font-size: 3em;
-                }  
-            }
-        }
-
+        
         .hero-img {
             width: 30%;
             margin-right: 8em;
@@ -360,20 +334,20 @@ cursor: pointer;
             }
         }
     
-        .features-section {
-            position: relative;
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-        .features-section img {
-            display: block;
-            position: absolute;
-            right: 0;
-            width: 350px;
-            bottom: -2em;
-        }
-    
-
-
-
-
-
