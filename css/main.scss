@@ -306,7 +306,7 @@ cursor: pointer;
             //display: flex;
             justify-content: space-between;
 
-            //text-align: left;
+            text-align: left;
     
              .left-col{
                 
@@ -323,5 +323,9 @@ cursor: pointer;
             width: 30%;
             margin-right: 8em;    
         }
+        .hero-cta{
+            display: flex;
+        }
 
-}
+
+    }}
