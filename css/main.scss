@@ -59,7 +59,7 @@ ul {
      text-align: center;
  }
  
- .left-col {
+.left-col {
  
      .subhead {
          text-transform: uppercase;
@@ -89,8 +89,8 @@ ul {
         margin-top: 1em;
         img{
             margin-right: 0.5em;
-        }  
-    }
+           }  
+        }
 }
 
 .hero-img {
@@ -109,15 +109,12 @@ ul.Features-list {
     display: grid;
     padding-left: 0.1em;
     grid-template-columns:repeat(auto-fit,minmax (19em, if)) ;
- 
-   
 
     li {
         font-size: 1.1em;
         margin-bottom: 1em;
         margin-left: 2em;
         position: relative;
-
          &:before {
             // margin: 0.1em;
             content: '';
@@ -132,7 +129,6 @@ ul.Features-list {
         
     }   
 }
-
 .Features-section img {
     display: none;
 }
@@ -140,8 +136,6 @@ ul.Features-list {
 .our-stylist {
     background: var(--primary-color);
     color:black;
-   
-
     li{
         background:rgb(228, 216, 200) ;
         text-align: center;
@@ -164,32 +158,30 @@ ul.Features-list {
     }
 }
 .contact-section{
-
-
     .h2{
     font-size: .2em;
         text-decoration: none;
         font-weight: bold;
-    }
+    
         .span{
             color: rgba(170, 98, 80, 0.753);   
        }
+    }
     
-    
-    label{
+label{
         display: block;
         font-size: 1.2em;
         margin-bottom: .5em;
     }
-    input,textarea{
+input,textarea{
         width: 100%;
         padding: .3em;
         margin-bottom: 1em;
         border-radius: .3em;
         border: 1px solid gray;
         box-sizing: border-box;
-    }
-    input[type="submit"]{
+     }
+input[type="submit"]{
         background-color: var(--primary-color);
         color: black;
         font-size:  1.3em;
@@ -202,12 +194,10 @@ ul.Features-list {
         //width: unset;
         //cursor: pointer;
     }
-    iframe {
+iframe {
         width: 100%;
         height: 400px
     }
-    }
-
 nav.menu-btn {
     display: block;
 }
@@ -222,7 +212,6 @@ nav{
     padding: 1em;
     u1.primary-nav{
         margin-top: 5em;
-
     }
     li{
         a{
@@ -238,27 +227,25 @@ nav{
         }
     }   
 }
-   .mobile-menu-exit {
+.mobile-menu-exit {
 float: left;
 margin: .5em;
 cursor: pointer;
     }
-
     //@media only screen and (min-width: 780px) {
-        @media only screen and (min-width: 780px) {
+@media only screen and (min-width: 780px) {
 
-        .mobile-menu, .mobile-menu-exit {
+    .mobile-menu, .mobile-menu-exit {
             display: none;
         }
     
-        .navbar .container {
+    .navbar .container {
             display: grid;
             grid-template-columns: 200px auto;
-            justify-content: unset;
-           
+            justify-content: unset;  
         }
     
-        .navbar nav {
+    .navbar nav {
             display: flex;
             justify-content: space-between;
             background: none;
@@ -305,23 +292,21 @@ cursor: pointer;
             }
         }
     
-    }
+}
  @media only screen and (min-width: 1080px) {
         .container {
             width: 1080px;
             margin: 0 auto;
-
-
         }
-    
-        section {
+         section {
             padding: 10em 4em;
         }
-       
-        .hero .container {
-            display: flex;
+        .hero {
+            display: grid ;
+            //display: flex;
             justify-content: space-between;
-            text-align: left;
+
+            //text-align: left;
     
              .left-col{
                 
@@ -330,26 +315,13 @@ cursor: pointer;
                 .h1{
                     font-size: 3em;
                     width: 90%;
-                }/*
-                .subhead{
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    color: gray;
-                    letter-spacing: .1em;
                 }
                 
-                .hero-cta{
-                    display: grid ;
-                }
-
-                margin: 3em 3em 0 5em;
-                h1 {
-                    font-size: 3em;
-                    width: 90%;
-                    
-                }
             }
-            */
         }
-    }
+        .hero-img{
+            width: 30%;
+            margin-right: 8em;    
+        }
+
 }
