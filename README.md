@@ -9,4 +9,8 @@ The landing page , the user can see the name of the salon,the motto for campany 
 # Technologies used
 HTML,Javascript ,css,scss
 
+# Preview
+![landig](https://user-images.githubusercontent.com/90321105/155025244-6e8c381f-1883-457b-b99c-2d3b112bbede.jpeg)
+
+
 
